@@ -1,0 +1,147 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.name {
+  font-size: 50px;
+}
+.kvad {
+  position: absolute;
+  top: 30px;
+  font-size: 10px;
+}
+.text {
+  margin-left: 65px;
+  margin-top: -10px;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.logo-icon {
+  width: 58px;
+  height: 59px;
+}
+.nav {
+  width: 50%;
+}
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.item {
+  padding: 10px;
+  cursor: pointer;
+}
+.contact {
+  list-style: none;
+  display: flex;
+}
+.contact-item {
+  margin-right: 12px;
+}
+.work {
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+}
+.tel {
+  font-size: 24px;
+  color: black;
+  margin-top: -10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* MAIN */
+.hero {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+  background-image: url(./image/back.png), url(./image/back2.png);
+  background-repeat: no-repeat;
+  background-position: right, left;
+  background-size: 730px, 300px;
+}
+.info {
+  width: 743px;
+  padding-left: 75px;
+}
+.title {
+  font-size: 70px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.btn {
+  margin-top: 40px;
+  border: 0;
+  background-color: #ffdf00;
+  padding-top: 20px;
+  padding-left: 67px;
+  padding-right: 67px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+}
+.image {
+  width: 567px;
+  height: 554px;
+}
+.rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-comand {
+  width: 800px;
+  margin-right: 40px;
+}
+.rating-text {
+  width: 600px;
+}
+.company {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+  padding-top: 50px;
+  padding-left: 75px;
+  background-color: #ffdf00;
+}
+.comp-img {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 28px;
+}
+.img1 {
+  width: 105px;
+  margin-right: 50px;
+}
+.img2 {
+  width: 219px;
+  margin-right: 50px;
+}
+.img3 {
+  width: 206px;
+}
+.group {
+  width: 600px;
+}
+/* FOOTER */
+.footer {
+  border: 1px solid purple;
+}
